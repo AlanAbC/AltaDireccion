@@ -1,0 +1,261 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f2f2f2 !important;
+}
+.header{
+	position: fixed;
+	float: left;
+	width: 100%;
+	height: 60px;
+	border-bottom:1px solid rgba(255, 255, 255 , .2);
+	background: #0077BB;
+	z-index: 90;
+}
+.logo{
+	position: relative;
+	float: left;
+	color: white;
+	height: 100%;
+	padding-top: 2px;
+	margin-left: 15px;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.menu{
+	position: relative;
+	float: right;
+	height: 30px;
+	margin-top: 30px !important;
+}
+.menusec{
+	position: relative;
+	float: left;
+	width: 95px;
+	color: white;
+	height: 100%;
+	padding-top: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.menusec:hover{
+	cursor: pointer;
+	border-bottom: 2px solid white;
+}
+.welcome{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #0077BB;
+
+}
+.introduccion{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.contenido{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.ejemplos{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.ejercicios{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.juegos{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.evaluacion{
+	position: relative;
+	float: left;
+	overflow-y: scroll;
+	width: 100%;
+	height: calc( 100vh - 60px);
+	margin-top: 60px;
+	background: #F5EDF1;	
+}
+.inttitle{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-top: 15px;
+	margin-left: 7.5%;
+	text-align: center;
+	font-size: 26pt;
+}
+.inttxt{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-left: 7.5%;
+	text-align: left;
+	font-size: 14pt;
+}
+.txtwelcome{
+	position: relative;
+	float: left;
+	width: 90%;
+	margin-left: 5%; 		
+	text-align: center;
+	color: white;
+	margin-top: 33vh;
+	font-size: 26pt;
+}
+.btnwelcome{
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 50px;
+	border-radius: 15px;
+	border:1px solid white;
+	background: transparent;
+	text-align: center;
+	left: 50%;
+	color: white;
+	margin-top: 20px;
+	font-size: 19pt;
+	padding-top: 4px;
+	box-sizing: border-box;
+	margin-left: -125px;
+	transition: .5s;
+}
+.btnwelcome:hover{
+	background: white;
+	border:none;
+	cursor: pointer;
+	transition: .5s;
+	color: #0077BB;
+}
+.cont{
+	position: fixed; 
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	background: white;
+	margin-left: 93vw;
+	margin-top: 87vh;
+	margin-right: 15px;
+	z-index: 100;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.3);
+}
+.imgcont{
+	position: relative;
+	float: left;
+	width: 70%;
+	height: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+}
+.cont:hover{
+	cursor: pointer;
+}
+.contacto{
+	position: fixed;
+	margin-top: 60vh;
+	width: 100%;
+	height: 40vh;
+	background: #FA4504;
+}
+.conta{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100vh;
+}
+.contnombre{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.contcorreo{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.contfoto{
+	position: relative;
+	float: left;
+	width: 50%;
+	margin-left: 25%;
+}
+.contform{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.continp{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	color: white;
+	margin-top: 15px;
+}
+.form{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 100vh;
+
+}
+.contenviar{
+	position: relative;
+	float: left;
+	width: 65%;
+	margin-left: 20%;
+	margin-top: 2px;
+	height: 40px;
+	background: #0077BB;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+}
+.contenviar:hover{
+	cursor: pointer;
+}
+.inpcomentario{
+	height: 90px !important;
+}
