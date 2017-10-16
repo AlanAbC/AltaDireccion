@@ -25,9 +25,12 @@
         <link rel="stylesheet" href="css/hover.css">
         <link rel="stylesheet" href="css/swal.css"> 
         <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="css/ahorcado.css" >
+        <script src="js/ahorcado.js" > </script>
+        <script src="js/modernizr.js"> </script>
         <title>Alta direccion</title>
     </head>
-    <body>
+    <body onLoad="init()">
         <div class="header">
             <h1 class="logo">Alta Direccion</h1>
             <div class="menu">
@@ -70,7 +73,23 @@
         </div>
         <!--Juegos-->
         <div class="juegos" hidden>
-            
+            <section id="principal">
+            <h1 class="titlejuego">Juego del ahorcado</h1>
+               <div class="juegoleft">
+                   <p class="txtjuego">Palabra a adivinar:<span id="palabra"></span></p>
+                   <p class="txtjuego">Tecla: <span id="tecla"> </span></p>
+                   <p class="txtjuego"><span id="mensaje"> </span></p>
+                   <div id="letras" class="txtjuego">
+                    Letras: 
+                    </div>
+               </div>
+               
+               <div id="dibujo">
+                <canvas id="idCanvas" width="200" height="200">
+                 El navegador que está utilizando no permite realizar dibujos.
+               </canvas>
+               </div>
+            </section>
         </div>
         <!--Evaluacion-->
         <div class="evaluacion" hidden>
