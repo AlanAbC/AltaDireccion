@@ -78,7 +78,6 @@
         </div>
         <!--Ejercicios-->
         <div class="ejercicios" hidden>
-            
         </div>
         <!--Juegos-->
         <div class="juegos" hidden>
@@ -102,7 +101,17 @@
         </div>
         <!--Evaluacion-->
         <div class="evaluacion" hidden>
-            
+            <div class="question">
+                <h2 id="preg"></h2>
+            </div>
+            <div class="answer">
+                <input type="text" id="dato">
+                <button id="boton">Siguiente Pregunta</button>
+                <button id="repetir" hidden>Intentar nuevamente</button>
+            </div>
+            <div class="result">
+                <p id="resolucion"></p>
+            </div>
         </div>
         <!--Contacto-->
         <div class="cont">
@@ -142,6 +151,7 @@
             <script src="js/swal.js"></script>
             <script src="js/nicescroll.js"></script>
             <script src="script.js"></script>
+            <script src="evaluacion.js"></script>
         <!-- SCRIPT ZONE -->
     </body>
 </html>
