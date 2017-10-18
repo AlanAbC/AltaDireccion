@@ -1,15 +1,25 @@
 // Array bidimensional donde se guardarán las preguntas junto a sus respuestas correctas correspondientes...
 var preguntas = [																			// Pregunta Respuesta
-		['¿Cómo se llamó la mascota del Mundial de España de 1.982?', 'Naranjito'],         //  [0][0]   [0][1]
-		['¿Cuánto es 3^3?', '27'],															//  [1][0]   [1][1]
-		['¿Qué color resulta al mezclar el azul con el amarillo?', 'verde'],                //  [2][0]   [2][1]
-		['¿En qué deporte destacó Sabonis?', 'baloncesto'],									// ...
-		['¿Cuántos jugadores participan en un partido de fútbol?', '22'],
-		['¿En qué país nació la música House?', 'Chicago'],
-		['¿Con qué popular periférico introducimos texto en un ordenador?', 'teclado'],
-		['(64 x 4) / 2 es igual a...', '128'],
-		['¿Cómo se llama nuestro planeta?', 'Tierra'],                                      // ...
-		['¿De qué color es el caballo blanco de Santiago?', 'blanco']						// [9][0] y [9][1]
+		['Son el conjunto de habilidades que determinan la manera en la cual interactuamos con otras personas.', 'directivas'],
+		['Está respaldado convenientemente por una serie de habilidades que refuerzan su efectividad y encumbran al éxito a quien las presenta. ', 'liderazgo de calidad '],
+		['Ayuda a la comprensión de las situaciones y dinámicas sociales. ', 'inteligencia social'],
+		['Se consideran a veces como un subconjunto de la inteligencia social.', 'habilidades interpersonales'],
+		['Daniel Goleman en su obra apunta los aspectos más significativos de estas habilidades directivas, pero que también son importantes capacidades a cualquier otro nivel (y no únicamente en el plano profesional).', 'inteligencia emocional'],
+		['Esta habilidad es determinante especialmente en entornos dinámicos y, muchos Project Managers podrían beneficiarse de sus ventajas.', 'prudencia'],
+		['Esta manifestación de la valentía también se encuentra entre las principales habilidades directivas', 'coraje'],
+		['estas habilidades directivas son importantes porque en los proyectos es habitual que se produzcan roces o se presenten fricciones entre grupos de interés o entre los propios miembros e los equipos de trabajo.', 'gestion de conflictos'],
+		['Una de las competencias básicas para cualquier líder es la capacidad de ', 'toma de decisiones'],
+		['Pueden considerarse como un complemento a la inteligencia social,ya que giran en torno a la capacidad de comunicación a nivel emocional, la habilidad para comprender las emociones de los demás, entendiendo las situaciones por las que atraviesan.', 'inteligencia emocional'],
+		['La habilidad de comunicarse con audiencias de pequeño tamaño y también de gran volumen, y la decisión para hacerlo aunque no se conozca a los interlocutores resumen este tipo de habilidades directivas que resultan imprescindibles en cualquier proyecto.', 'habilidades interpersonales'],
+		['Este tipo de habilidades directivas permiten tomar decisiones de manera efectiva en una variedad de situaciones sociales.', 'inteligencia social'],
+		['Para muchos es sinónimo de sabiduría, para otros es inherente a la experiencia.', 'prudencia'],
+		['La mejor manera de lograrlo es tratar de transmitir a las partes una visión positiva, la de que encontrar una solución donde todos ganen y nadie pierda es posible.', 'gestion de conflictos'],
+		['Para experimentar este valor en la propia gestión es preciso revisar la propia escala de valores, las prioridades de uno mismo, y tratar de robustecerlos.', 'coraje'],
+		['Tener una mente analítica, capacidad para escuchar, atención al detalle, capacidad para actuar correctamente bajo presión y saber cuándo es el momento de dar un paso atrás y dejar que otros decidan.', 'toma de decisiones'],
+		['Es imprescindible la experiencia, pero, igual de importante y necesaria resulta la formación', 'toma de decisiones'],
+		['Con las ideas más claras acerca de los puntos donde se pueden hacer concesiones, siendo flexibles y asumiendo que todos tendrán que renunciar a algo.', 'gestion de conflictos'],
+		['Hay que saber pedir opiniones, hay que tener la capacidad de escuchar a los demás y, lo que es más complicado, hay que tener en cuenta toda esta información antes de dar ningún paso.', 'prudencia'],
+		['Hace falta profundizar en la comunicación no verbal, aprender a regular y controlar los propios sentimientos y, por supuesto, saber expresarlos de manera apropiada.', 'inteligencia emocional']						// [9][0] y [9][1]
 	],
 	pregunta, respuesta,
 	formuladas = 0,
