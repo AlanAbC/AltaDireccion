@@ -259,3 +259,68 @@ body{
 .inpcomentario{
 	height: 90px !important;
 }
+#preg{
+	position: relative;
+	float: left;
+	width: 85%;
+	margin-left: 7.5%;
+	margin-top: 25px;
+	font-size: 18pt;
+}
+#dato{
+	position: relative;
+	float: left;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+.answer{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+#boton{
+	position: relative;
+	float: left;
+	width: 30%;
+	margin-left: -15%;
+	left: 50%;
+	background: #0077BB;
+	color: white;
+	margin-bottom: 30px;
+	height:50px;
+	margin-top: 30px;
+
+}
+#repetir{
+	position: relative;
+	float: left;
+	width: 30%;
+	margin-left: -15%;
+	left: 50%;
+	background: #0077BB;
+	color: white;
+	margin-bottom: 30px;
+	height:50px;
+	margin-top: 30px;
+
+}
+.instruccioneseval{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 30px;
+	font-size: 21pt;
+	color: #0077BB;
+	text-align: center;
+}
+.contenedorevaluacion{
+	position: relative;
+	float: left;
+	width: 70%;
+	margin-left: 15%;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.3);
+}

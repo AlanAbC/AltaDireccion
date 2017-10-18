@@ -77,7 +77,20 @@ function muestraResultado(){
 			resultado = '¡EXCELENTE, has acertado todas las preguntas! :-D';
 			break;
 	}
-    document.getElementById('resolucion').innerHTML = resultado;
+	if(acertadas >2){
+		swal(
+		      'Aciertos '+acertadas+ ' de 5',
+		        resultado,
+		        'success'
+		    )
+	}else{
+		swal(
+	      'Aciertos '+acertadas+ ' de 5',
+	        resultado,
+	        'error'
+	    )
+	}
+	
     $('#dato').attr('disabled','disabled');
     $('#boton').hide();
     $('#repetir').show();
