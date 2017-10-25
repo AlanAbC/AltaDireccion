@@ -1,0 +1,48 @@
+body {
+}
+
+#principal {
+	position: relative;float: left;
+	margin-top: 10vh;
+ height: 60vh;
+ width: 85%;
+ margin-left: 7.5%;
+ background: white;
+ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+
+.titlejuego {
+ color: #0077BB;
+ width: 100%;
+ text-align: center;
+ margin-top: 15px;
+ position: relative;
+ float: left;
+ font-size: 27pt;
+}
+.juegoleft{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+#idCanvas {
+ width: 20%;
+ height: 20%;
+ position: relative;
+ float: left;
+}
+
+#palabra {
+ color: black;
+}
+.txtjuego{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding-left: 30px;
+	box-sizing: border-box;
+	font-size: 18pt;
+	margin-top: 10px;
+}
