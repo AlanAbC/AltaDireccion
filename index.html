@@ -26,8 +26,21 @@
         <link rel="stylesheet" href="css/swal.css"> 
         <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="css/ahorcado.css" >
-        <script src="js/ahorcado.js" > </script>
-        <script src="js/modernizr.js"> </script>
+        <!-- SCRIPT ZONE -->
+            <script type="text/javascript" src="cordova.js"></script>
+            <script src="js/swiper.jquery.min.js"></script>
+            <script src="js/swiper.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/foundation.min.js"></script>
+            <script src="js/skrollr.min.js"></script>
+            <script src="js/mandrill.js"></script>
+            <script src="js/swal.js"></script>
+            <script src="js/nicescroll.js"></script>
+            <script src="evaluacion.js"></script>
+            <script src="js/ahorcado.js" > </script>
+            <script src="js/modernizr.js"> </script>
+            <script src="js/wordfind.js"></script>
+            <script src="js/wordfindgame.js"></script>
         <title>Alta direccion</title>
     </head>
     <body onLoad="init()">
@@ -79,12 +92,34 @@
         <!--Ejercicios-->
         <div class="ejercicios" hidden>
         </div>
+        <!--Links-->
+        <div class="links" hidden>
+        </div>
         <!--Juegos-->
         <div class="juegos" hidden>
+            <div class="crucigrama">
+                <div class="top2">
+                    <div class="titlejuego">SOPA DE LETRAS</div>
+                    <div id='juego'></div>
+                    <div id='Palabras'></div>
+                    
+                    <div><button id='solve'>Resolver el juego</button></div>
+                    <script>
+                    var words = ['social','intrapersonales','emocional','prudencia','coraje','gestion','inteligencias','decisiones'];
+                    var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras'); 
+                        
+                    var puzzle = wordfind.newPuzzle(words,{height: 60, width:60, fillBlanks: false});
+                    wordfind.print(puzzle);   
+                        
+                    $('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
+                        
+                    </script>
+                </div>
+            </div>
             <section id="principal">
             <h1 class="titlejuego">Juego del ahorcado</h1>
                <div class="juegoleft">
-                   <p class="txtjuego">Palabra a adivinar:<span id="palabra"></span></p>
+                   <p class="txtjuego">Palabra a adivinar:<span id="palabra" hidden></span></p>
                    <p class="txtjuego">Tecla: <span id="tecla"> </span></p>
                    <p class="txtjuego"><span id="mensaje"> </span></p>
                    <div id="letras" class="txtjuego">
@@ -143,18 +178,8 @@
                 <p class="contenviar">Enviar</p>
             </div>
         </div>
+        
         <!-- SCRIPT ZONE -->
-            <script type="text/javascript" src="cordova.js"></script>
-            <script src="js/swiper.jquery.min.js"></script>
-            <script src="js/swiper.min.js"></script>
-            <script src="js/jquery.min.js"></script>
-            <script src="js/foundation.min.js"></script>
-            <script src="js/skrollr.min.js"></script>
-            <script src="js/mandrill.js"></script>
-            <script src="js/swal.js"></script>
-            <script src="js/nicescroll.js"></script>
-            <script src="script.js"></script>
-            <script src="evaluacion.js"></script>
-        <!-- SCRIPT ZONE -->
+        <script src="script.js"></script>
     </body>
 </html>

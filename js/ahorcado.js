@@ -1,7 +1,7 @@
 var canvas;
 var ctx;
 var spanTecla;
-var palabras = new Array("BIENVENIDO","HOLA","PALABRA");
+var palabras = new Array("INTELIGENCIA SOCIAL","INTELIGENCIA EMOCIONAL","TOMA DE DECISIONES","CORAJE","PRUDENCIA","GESTION DE CONFLICTOS");
 var palabra; 
 var aciertos = new Array(); 
 var fallos = new Array(); 

@@ -43,6 +43,7 @@ $(".logo").click(function(event) {
     $(".ejemplos").hide();
     $(".ejercicios").hide();
     $(".juegos").hide();
+    $(".links").hide();
     $(".evaluacion").hide();
     $(".cont").css('background', '#ffffff');
     $(".imgcont").attr('src', 'img/question-mark (1).png');
@@ -52,6 +53,7 @@ $(".logo").click(function(event) {
     $("#menuejer").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
 });
 $(".btnwelcome").click(function(event) {
    $(".welcome").hide();
@@ -59,6 +61,7 @@ $(".btnwelcome").click(function(event) {
     $(".ejemplos").hide();
     $(".ejercicios").hide();
     $(".juegos").hide();
+    $(".links").hide();
     $(".evaluacion").hide();
     $(".introduccion").fadeIn(400);
     $(".cont").css('background', '#0077BB');
@@ -69,12 +72,14 @@ $(".btnwelcome").click(function(event) {
     $("#menuejer").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
 });
 $("#menuint").click(function(event) {
     $(".welcome").hide();
     $(".contenido").hide();
     $(".ejemplos").hide();
     $(".ejercicios").hide();
+    $(".links").hide();
     $(".juegos").hide();
     $(".evaluacion").hide();
     $(".introduccion").fadeIn(400);
@@ -86,6 +91,7 @@ $("#menuint").click(function(event) {
     $("#menuejer").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
 });
 $("#menucon").click(function(event) {
     $(".welcome").hide();
@@ -93,6 +99,7 @@ $("#menucon").click(function(event) {
     $(".introduccion").hide();
     $(".ejemplos").hide();
     $(".ejercicios").hide();
+    $(".links").hide();
     $(".juegos").hide();
     $(".evaluacion").hide();
     $(".cont").css('background', '#0077BB');
@@ -103,12 +110,14 @@ $("#menucon").click(function(event) {
     $("#menuejer").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
 });
 $("#menuejem").click(function(event) {
     $(".welcome").hide();
     $(".contenido").hide();
     $(".introduccion").hide();
     $(".ejercicios").hide();
+    $(".links").hide();
     $(".juegos").hide();
     $(".evaluacion").hide();
     $(".ejemplos").fadeIn(400);
@@ -120,6 +129,7 @@ $("#menuejem").click(function(event) {
     $("#menuejer").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
 });
 $("#menuejer").click(function(event) {
     $(".welcome").hide();
@@ -127,6 +137,7 @@ $("#menuejer").click(function(event) {
     $(".introduccion").hide();
     $(".ejercicios").fadeIn(400);
     $(".juegos").hide();
+    $(".links").hide();
     $(".evaluacion").hide();
     $(".ejemplos").hide();
     $(".cont").css('background', '#0077BB');
@@ -137,6 +148,7 @@ $("#menuejer").click(function(event) {
     $("#menuejer").css('border-bottom', '2px solid white');
     $("#menueval").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
 });
 $("#menujueg").click(function(event) {
     $(".welcome").hide();
@@ -146,6 +158,7 @@ $("#menujueg").click(function(event) {
     $(".juegos").fadeIn(400);
     $(".evaluacion").hide();
     $(".ejemplos").hide();
+    $(".links").hide();
     $(".cont").css('background', '#0077BB');
     $(".imgcont").attr('src', 'img/question-mark.png');
     $("#menuint").css('border-bottom', 'none');
@@ -153,6 +166,7 @@ $("#menujueg").click(function(event) {
     $("#menuejem").css('border-bottom', 'none');
     $("#menuejer").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
     $("#menujueg").css('border-bottom', '2px solid white');
 });
 $("#menueval").click(function(event) {
@@ -161,6 +175,7 @@ $("#menueval").click(function(event) {
     $(".introduccion").hide();
     $(".ejercicios").hide();
     $(".juegos").hide();
+    $(".links").hide();
     $(".evaluacion").fadeIn();
     $(".ejemplos").hide();
     $(".cont").css('background', '#0077BB');
@@ -169,6 +184,26 @@ $("#menueval").click(function(event) {
     $("#menucon").css('border-bottom', 'none');
     $("#menuejem").css('border-bottom', 'none');
     $("#menuejer").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', 'none');
     $("#menueval").css('border-bottom', '2px solid white');
+    $("#menujueg").css('border-bottom', 'none');
+});
+$("#menulink").click(function(event) {
+    $(".welcome").hide();
+    $(".contenido").hide();
+    $(".introduccion").hide();
+    $(".ejercicios").hide();
+    $(".juegos").hide();
+    $(".links").fadeIn('400');
+    $(".evaluacion").hide();
+    $(".ejemplos").hide();
+    $(".cont").css('background', '#0077BB');
+    $(".imgcont").attr('src', 'img/question-mark.png');
+    $("#menuint").css('border-bottom', 'none');
+    $("#menucon").css('border-bottom', 'none');
+    $("#menuejem").css('border-bottom', 'none');
+    $("#menuejer").css('border-bottom', 'none');
+    $("#menueval").css('border-bottom', 'none');
+    $("#menulink").css('border-bottom', '2px solid white');
     $("#menujueg").css('border-bottom', 'none');
 });
