@@ -134,6 +134,13 @@ body{
 	text-align: left;
 	font-size: 14pt;
 }
+.inttxt strong{
+	position: relative;
+	float: left;
+	color: #0077BB;
+	text-align: left;
+	font-size: 16pt;
+}
 .txtwelcome{
 	position: relative;
 	float: left;
