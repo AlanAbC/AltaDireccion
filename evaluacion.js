@@ -50,7 +50,13 @@ function hazPregunta(){
 	e = preguntas.splice( numAleat(0, preguntas.length-1), 1 );
 	pregunta = e[0][0];			// se guardan la pregunta y la respuesta 
 	respuesta = e[0][1];
-	document.getElementById('preg').innerHTML = pregunta;        // se muestra la pregunta
+	document.getElementById('preg').innerHTML = pregunta;
+	//ayudares1 = preguntas.splice( numAleat(0, preguntas.length-1), 1 ); 
+	//ayudares2 = preguntas.splice( numAleat(0, preguntas.length-1), 1 );
+	ayudares1 = preguntas.splice( Math.random(0, preguntas.length-1), 1 ); 
+	ayudares2 = preguntas.splice( Math.random(0, preguntas.length-1), 1 );
+	ayuda = respuesta + "<br>" + ayudares1[0][1] + "<br>" + ayudares2[0][1]
+	document.getElementById('res').innerHTML = ayuda;        // se muestra la pregunta
 	document.getElementById('dato').value = '';                  // se borra lo escrito anteriormente por el usuario
 	formuladas++;
 }
@@ -106,7 +112,7 @@ $('#repetir').click(function(event) {
 	$('#dato').removeAttr('disabled');
     $('#boton').show();
     $('#repetir').hide();
-    document.getElementById('resolucion').innerHTML = '';
+    //document.getElementById('resolucion').innerHTML = '';
     formuladas = 0;
 	acertadas = 0;
 	hazPregunta();
